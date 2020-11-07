@@ -1,0 +1,269 @@
+/* whatWeOffer css starts here */
+
+.whatWeOfferHeading {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
+
+.whatWeOfferText {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* whatWeOffer css ends here */
+
+/* hexagon code stats here */
+
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #f5f3f3;
+  margin: 86.60px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  color: black;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.hexagon:before, .hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #f5f3f3;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #f5f3f3;
+}
+
+/* hexagon hover effects starts here */
+
+.hexagon:hover {
+  background-color: #331185;
+  color: lightgoldenrodyellow;
+}
+
+.hexagon:hover::after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #331185;
+}
+
+.hexagon:hover::before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #331185;
+}
+
+/* hexagon hover effects ends here */
+
+/* hexagon1 with default blue card  starts here*/
+
+.hexagon1 {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #331185;
+  margin: 86.60px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  color: lightgoldenrodyellow;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.hexagon1:before, .hexagon1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon1:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #331185;
+}
+
+.hexagon1:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #331185;
+}
+
+/* hexagon1 hover effects starts here */
+
+.hexagon1:hover {
+  background-color: #f5f3f3;
+  color: #331185;
+}
+
+.hexagon1:hover::after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #f5f3f3;
+}
+
+.hexagon1:hover::before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #f5f3f3;
+}
+
+/* hexagon1 hover effects ends here */
+
+/* hexagon1 with default blue card  ends here*/
+
+/* hexagon with long length  starts here*/
+
+.hexagon-long {
+  position: relative;
+  width: 300px;
+  /* height: 173.21px; */
+  height: 400px;
+  background-color: #f5f3f3;
+  margin: 86.60px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  color: black;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.hexagon-long:before, .hexagon-long:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon-long:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #f5f3f3;
+}
+
+.hexagon-long:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #f5f3f3;
+}
+
+/* hexagon1 hover effects starts here */
+
+.hexagon-long:hover {
+  background-color: #331185;
+  color: lightgoldenrodyellow;
+}
+
+.hexagon-long:hover::after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #331185;
+}
+
+.hexagon-long:hover::before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #331185;
+}
+
+/* hexagon hover effects ends here */
+
+/* hexagon with long length  ends here*/
+
+.circle-img {
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+  border: rgb(238, 81, 134) solid 8px;
+  /* background-image: url('../ownExam/assets/images.jpg'); */
+  text-align: center;
+  border-radius: 50%;
+  shape-outside: circle();
+  clip-path: circle();
+  overflow: hidden;
+  margin-left: 115px;
+}
+
+div .circle-img {
+  position: absolute;
+  /* top: -120; */
+  top:-120px
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.txt-head {
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(238, 81, 134);
+}
+
+.border-bottoms {
+  /* border-bottom: 5px solid rgb(238, 81, 134);
+      border-width: 1px;
+      border-bottom-width: 5px; */
+  max-width: 5rem;
+  height: 2px;
+  background: rgb(238, 81, 134);
+  margin-bottom: 3px;
+}
+
+.border-bottoms-blue {
+  max-width: 5rem;
+  height: 2px;
+  background: #331185;
+  margin-bottom: 3px;
+  margin-left: 205px;
+}
+
+.padding-0 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+div .secondHexaSet {
+  /* top: -300; */
+  margin-top: -80px;
+}
+
+/* hexagon code ends here */
+
+.circle-feature {
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+  border: #331185 solid 8px;
+  /* background-image: url('../ownExam/assets/images.jpg'); */
+  text-align: center;
+  border-radius: 50%;
+  shape-outside: circle();
+  clip-path: circle();
+  overflow: hidden;
+  margin-left: 115px;
+}
+
+.txt-head-feature {
+  color: #331185;
+  padding-left: 115px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.arrow {
+  color: #331185;
+  padding-top: 90px;
+  padding-left: 30px;
+  font-weight: bolder;
+}
+
+.circle-number {
+  color: #331185;
+  font-weight: bold;
+  font-size: 40px;
+}
